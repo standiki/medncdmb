@@ -231,7 +231,7 @@ header nav ul ul a {
   .services h1{
     display: inline-block;
     text-transform: uppercase;
-    border-bottom: 4px solid #3498db;
+    border-bottom: 4px solid #49B142;
     font-size: 20px;
     padding-bottom: 10px;
     margin-top: 40px;
@@ -284,11 +284,37 @@ header nav ul ul a {
   /* Section 1 ENDs */
 
 /* Section-2 starts */
-/* Summary styles */
+.left-side, .right-side {
+    width: 100%;
+    height: auto;
+}
 
-/* Section-2 starts */
-/* Summary styles */
+.right-side {
+    text-align: center;
+    margin: 10px;
+}
 
+.right-side h3 {
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 4px solid #49B142;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+  }
+
+  .summary-text {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  .summary-text p{
+    color: #333;
+    font-size: 15px;
+    font-weight: 500;
+  }
 /* Section-3 starts */
 .container {
     display: flex;
